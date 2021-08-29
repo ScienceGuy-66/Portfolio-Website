@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+
+:root {
+    --primaryBlack: #181717;
+    --primaryGrey: #606060;
+    --primaryWhite: #F3F3F3;
+    --secondaryBlue: #2429AF;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--primaryWhite);
+    font-family: 'DM Sans';
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: var(--primaryWhite);
+}
+
+
+.logo {
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 3em;
+    color: var(--primaryBlack);
+    margin: .5em;
+}
+
+.navList {
+    display: flex;
+    list-style: none;
+    float: right;
+}
+
+.github {
+    width: 50%;
+}
+
+.listItem {
+    margin: 1em;
+    text-decoration: none;
+    font-weight: 500;
+    color: var(--primaryBlack);
+}
+
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+    margin: 5em;
+}
+
+.mainText {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 97.2%;
+    color: var(--primaryBlack);
+    font-weight: 700;
+}
+
+.secondText {
+    color: var(--primaryGrey);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.1em;
+}   
+
+.moreInfo {
+    font-family: 'Inter';
+    margin-top: 5em;
+    margin-left: 5em;
+    margin-right: 5em;
+    display: flex;
+    margin-bottom: 1em;
+}
+
+.software {
+    text-decoration: underline;
+}
+
+#sw {
+    margin: 1em;
+}
+
+.moreInfo2 {
+    font-family: 'Inter';
+    margin-bottom: 5em;
+    margin-left: 5em;
+    margin-right: 5em;
+    display: flex;
+}
+
+.skills {
+    text-decoration: underline;
+}
+
+#sk {
+    margin: 1em;
+}
+
+.divider {
+    margin-left: 10em;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contactRedirect {
+    font-family: DM Sans;
+    font-weight: normal;
+    font-size: 1.6em;
+    margin-left: 6em;
+}
+
+#mobile {
+    width: 50%;
+}
+
+.arrow {
+    width: .7em;
+}
+
+.email {
+    font-family: DM Sans;
+    font-weight: bold;
+    font-size: 1.6em;
+    margin-right: 9em
+}    
+
+.emailfoot {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: var(--primaryGrey)
+}   
+
+.copyright {
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    color: var(--secondaryBlue);
+}
+
+.final {
+    text-align: center;
+    margin-right: 2em;
+}
+
+.divider-mobile {
+    display: none;
+}
+
+@media only screen and (max-width: 768px) {
+    .hero-image {
+        display: none;
+    }
+
+    .divider {
+        display: none;
+    }
+
+    .divider-mobile {
+        margin-left: 5em;
+        display: block;
+    }
+
+    .contactRedirect {
+        margin-left: 3em;
+    }
+
+    .email {
+        font-family: DM Sans;
+        font-weight: bold;
+        font-size: 1em;
+        margin-right: 5em;
+        margin-top: 2em;
+    }
+}
